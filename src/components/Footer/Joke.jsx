@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const Joke = () => {
   const [joke, setJoke] = useState("");
+  const [buttonClicked, setButtonClicked] = useState(false);
 
   const clickHandler = () => {
     fetch("https://api.chucknorris.io/jokes/random")
@@ -10,6 +11,7 @@ const Joke = () => {
       .then((data) => {
         console.log(data.value); // Check the response data
         setJoke(data.value);
+        setButtonClicked(true);
       })
       .catch((error) => {
         console.error(error); // Check for any fetch errors
@@ -18,7 +20,9 @@ const Joke = () => {
 
   return (
     <Container>
-      <Button onClick={clickHandler}>Click me!</Button>
+      <Button onClick={clickHandler}>
+        {buttonClicked ? "Click me again!" : "Click me!"}
+      </Button>
       {joke && <p>{joke}</p>}
     </Container>
   );
