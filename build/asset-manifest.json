@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.52264423.css",
+    "main.js": "/static/js/main.efd1bc9d.js",
+    "static/media/websiteV1.png": "/static/media/websiteV1.177d32dd33d7c491b417.png",
+    "static/media/platformgame.png": "/static/media/platformgame.3014fa737823042920e3.png",
+    "static/media/legendarb.png": "/static/media/legendarb.cd653544edd033b70a50.png",
+    "static/media/i2ds.png": "/static/media/i2ds.f34e2e24c46d7063293d.png",
+    "static/media/mugshot.png": "/static/media/mugshot.6b23ef22194ba080dc87.png",
+    "index.html": "/index.html",
+    "main.52264423.css.map": "/static/css/main.52264423.css.map",
+    "main.efd1bc9d.js.map": "/static/js/main.efd1bc9d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52264423.css",
+    "static/js/main.efd1bc9d.js"
+  ]
+}
